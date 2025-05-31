@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><!-- ok-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JoyMart</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="CSS/Style.css">
+    <link rel="shortcut icon" href="IMG/logo-no-background.png">
+</head>
+
+<body>
+
+     <!-- ***** HEADER SECTION ***** -->
+
+<header>
+        <div class="header-1">
+            <a href="#" class="logo">
+                <img src="IMG/logoN.png">Joy Mart</a>
+            <form action="" class="search-box-c">
+                <input type="search" id="search-box" placeholder="Search Here...">
+                <label for= "search-box" class="fas fa-search"></label>
+            </form>
+        </div>
+
+
+    <div class="header-2">
+
+            
+            <nav class="navbar">
+                <a href="page.html" class="active">Home</a>
+                <a href="catogory.html">Category</a>
+                <a href="#product">latest product</a>
+                <a href="#features">features</a>
+                <a href="contact.html">Contact</a>
+                
+            </nav>
+
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart" id="fav-btn"></a>
+                <a href="#" id="userbtn" class="fas fa-user-circle"></a>
+                <a class="fa-solid fa-bars" id="menu-btn"></a>
+            </div>
+        
+
+        <div class="fav-item-container">
+            <div class="fav-item">
+                <span class="fas fa-times"></span>
+                <img src="IMG/Banana.jpg" alt="">
+                <div class="content">
+                    <h3>Banana</h3>
+                    <div class="price">Rs.90.00</div>
+                </div>
+            </div>
+
+            <div class="fav-item">
+                <span class="fas fa-times"></span>
+                <img src="IMG/chips.jpg" alt="">
+                <div class="content">
+                    <h3>chips</h3>
+                    <div class="price">Rs.150.00</div>
+                </div>
+            </div>
+
+            <div class="fav-item">
+                <span class="fas fa-times"></span>
+                <img src="IMG/juice.jpg" alt="">
+                <div class="content">
+                    <h3>fruit juice</h3>
+                    <div class="price">Rs.100.00</div>
+                </div>
+            </div>
+
+            <div class="fav-item">
+                <span class="fas fa-times"></span>
+                <img src="IMG/fish.jpg" alt="">
+                <div class="content">
+                    <h3>fish</h3>
+                    <div class="price">Rs.300.00</div>
+                </div>
+            </div>
+
+            <a href="#" class="btn">checkout now</a>
+        </div>
+
+        <div class="navbar-container">
+            <a href="page.html">Home</a>
+            <a href="catogory.html">Category</a>
+            <a href="#product">latest product</a>
+            <a href="#features">features</a>
+            <a href="contact.html">Contact</a>
+            
+        </div>
+
+    </div>
+
+                 
+</header>
+
+<!-- ***** HOME PAGE ***** -->
+
+    <section class="home" id="home">
+        <div class="image">
+            <img src="IMG/home4-.png" alt="">
+        </div>
+
+        <div class="content">
+            <span>fresh and organic products</span>
+            <h3>Bringing Joy to Your Cart!</h3>
+        </div>   
+
+<!-- ***** LOGIN & SIGNUP ***** -->
+        <div class="wrapper" id="userbtn">
+            <span class="icon-close"><ion-icon name="close"></ion-icon></span>
+            <div class="form-box-login">
+                <h2>Login</h2>
+                <form action="#">
+                    <div class="input-box">
+                        <span class="icon"><ion-icon name="mail"></ion-icon></span>
+                        <input type="email" required>
+                        <label>Email</label>
+                    </div>
+
+                    <div class="input-box">
+                        <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                        <input type="password" required>
+                        <label>Password</label>
+                    </div>
+
+                    <div class="remember-forgot">
+                        <label><input type="checkbox">Remember me</label>
+                        <a href="#">Forgot Password?</a>
+                    </div>
+
+                    <button type="submit" class="btn">Login</button>
+
+                    <div class="login-register">
+                        <p>Don't have an account?
+                            <a href="#" class="register-link">Register</a>
+                        </p>
+                    </div>
+                </form>
+            </div>
+
+            <div class="form-box-register">
+                <h2>Registration</h2>
+                <form action="#">
+                    <div class="input-box">
+                        <span class="icon"><ion-icon name="person"></ion-icon></span>
+                        <input type="text" required>
+                        <label>Username</label>
+                    </div>
+
+                    <div class="input-box">
+                        <span class="icon"><ion-icon name="mail"></ion-icon></span>
+                        <input type="email" required>
+                        <label>Email</label>
+                    </div>
+
+                    <div class="input-box">
+                        <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                        <input type="password" required>
+                        <label>Password</label>
+                    </div>
+
+                    <div class="remember-forgot">
+                        <label><input type="checkbox">Agree to the terms & condition</label>
+                    </div>
+
+                    <button type="submit" class="btn">Register</button>
+
+                    <div class="login-register">
+                        <p>Already have have an account?
+                            <a href="#" class="login-link">Login</a>
+                        </p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+      <!-- ***** BANNER SECTION ***** -->
+      <h1 class="heading">today <span> offers</span></h1>
+    <section class="banner-container">
+        
+        <div class="banner">
+            <img src="IMG/banner2.jpg" alt="">
+            <div class="content">
+                <h3>Special offers</h3>
+                <p>upto 45% off</p>
+                <a href="#" class="btn">check out</a>
+
+            </div>
+        </div>
+
+        <div class="banner">
+            <img src="IMG/banner3.jpg" alt="">
+            <div class="content">
+                <h3>Limited offers</h3>
+                <p>upto 50% off</p>
+                <a href="#" class="btn">check out</a>
+
+            </div>
+        </div>
+
+       
+    </section>
+
+     <!-- ***** PRODUCT PAGE ***** -->
+
+    <section class="product" id="product">
+
+        <h1 class="heading">latest <span> product</span></h1>
+        <div class="box-container">
+
+            <div class="box">
+                <span class="discount">-33%</span>
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <img src="IMG/Banana.jpg" alt="">
+                <h3>organic banana</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+
+                <div class="price">RS.8.00-<span>RS.15.00</span></div>
+                <div class="quantity">
+                    <span>quantity : </span>
+                    <input type="number" min="1" max="1000" value="1">
+                    <span>/g</span>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+        
+
+            <div class="box">
+                <span class="discount">-45%</span>
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <img src="IMG/tomato.jpg" alt="">
+                <h3>organic tomato</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+
+                <div class="price">RS.10.00-<span>RS.35.00</span></div>
+                    <div class="quantity">
+                    <span>quantity : </span>
+                    <input type="number" min="1" max="1000" value="1">
+                    <span>/g</span>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="box">
+                <span class="discount">-10%</span>
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <img src="IMG/orange.jpg" alt="">
+                <h3>orange</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+
+                <div class="price">RS.50.00<span>RS.70.00</span></div>
+                <div class="quantity">
+                    <span>quantity : </span>
+                    <input type="number" min="1" max="1000" value="1">
+                    <span>/g</span>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="box">
+                <span class="discount">-25%</span>
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <img src="IMG/fish.jpg" alt="">
+                <h3>fish</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+
+                <div class="price">RS.100.00<span>RS.120.00</span></div>
+                <div class="quantity">
+                    <span>quantity : </span>
+                    <input type="number" min="1" max="1000" value="1">
+                    <span>/g</span>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="box">
+                
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <img src="IMG/watermelonjuice.jpg" alt="">
+                <h3>Watermelon juice</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+
+                <div class="price">RS.150.00/-</div>
+                <div class="quantity">
+                    <span>quantity : </span>
+                    <input type="number" min="1" max="1000" value="1">
+                    <span>/Bottle</span>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="box">
+                
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <img src="IMG/breadprice.jpg" alt="">
+                <h3>bread</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+
+                <div class="price">RS.120.00/-</div>
+                <div class="quantity">
+                    <span>quantity : </span>
+                    <input type="number" min="1" max="1000" value="1">
+                    <span>/item</span>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="box">
+                <span class="discount">-30%</span>
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <img src="IMG/Milk.jpg" alt="">
+                <h3>Fresh milk</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+
+                <div class="price">RS.450<span>RS.540.00</span></div>
+                <div class="quantity">
+                    <span>quantity : </span>
+                    <input type="number" min="1" max="1000" value="1">
+                    <span>/Bottle</span>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="box">
+                <span class="discount">-20%</span>
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <img src="IMG/creamcraker.jpg" alt="">
+                <h3>Cream Cracker</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+
+                <div class="price">RS.480.00<span>RS.400.00</span></div>
+                <div class="quantity">
+                    <span>quantity : </span>
+                    <input type="number" min="1" max="1000" value="1">
+                    <span>/Packet</span>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- ***** FEAtures PAGE ***** -->
+
+    <section class="features" id="features">
+        <h1 class="heading"><span>our </span>features</h1>
+
+        <div class="box-container">
+            <div class="box">
+                <img src="IMG/feature1.jpg" alt="">
+                <h3>fresh and organic</h3>
+                <p>we take pride in offering a delightful array of fresh and organic foods.From locally sourced fruits and veggies to organic meats and dairy, we offer a wholesome shopping experience. </p>
+
+                <a href="featuresfresh.html" class="btn">Read more</a>
+            </div>
+
+            <div class="box">
+                <img src="IMG/features2.jpg" alt="">
+                <h3>cash on delivery</h3>
+                <p>where ordering your favorite meals is a breeze! Explore our diverse menu online, place your order, and pay cash on delivery. We bring the deliciousness to your doorstep with our reliable and swift delivery service </p>
+
+                <a href="featuredelivry.html" class="btn">Read more</a>
+            </div>
+
+            <div class="box">
+                <img src="IMG/features3.jpg" alt="">
+                <h3>easy payments</h3>
+                <p>Our platform is designed with your busy lifestyle in mind, we provide a range of easy payment methods, including online card payments and PayPal transactions, ensuring a swift and secure checkout process.</p>
+
+                <a href="#" class="btn">Read more</a>
+            </div>
+
+        </div>
+
+    </section>
+
+     <!-- ***** FAQ PAGE ***** -->
+    <section class="FAQ">
+        <h3>Ask Questions About JoyMart</h3>
+
+        <form action="">
+            <input class="box" type="email" placeholder="Enter your questions.."></form>
+            <input type="submit" value="Ask" class="btn">
+        
+    </section>
+
+     <!-- ***** FOOTER SECTION ***** -->
+    <section class="footer">
+        <div class="box-container">
+            <div class="box">
+                <a href="#" class="logo"><img src="IMG/joy-mart-logo.png"></a>
+                <p>Joy Mart supermarket online platform is easy for you to buy any stuff, without coming to the actual store. So, Joy Mart where you can browse products, see details, and add things to your online cart. This online shopping is super convenient because you can do it from home, anytime you want!
+                </p>
+
+                <div class="share">
+                    <a href="#" class="btn fab fa-facebook-f"></a>
+                    <a href="#" class="btn fab fa-twitter"></a>
+                    <a href="#" class="btn fab fa-instagram"></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <h3>Quick Links</h3>
+                <div class="links">
+                    <a href="page.html">home</a>
+                    <a href="catogory.html">category</a>
+                    <a href="#product">product</a>
+                    <a href="contact.html">contact</a>
+                </div>
+
+            </div>
+
+            <div class="box">
+                <h3>catogory</h3>
+                <div class="links">
+                    <a href="catogory_vegi.html">vegitables</a>
+                    <a href="catogory_fruites.html">Fruits</a>
+                    <a href="catogory_meat.html">meats</a>
+                    <a href="catogory_beverages.html">beverages</a>
+                </div>
+
+            </div>
+
+            <div class="box">
+                <h3>download app</h3>
+                <div class="links">
+                    <a href="#">google play</a>
+                    <a href="#">window xp</a>
+                    <a href="#">app store</a>
+                </div>
+
+            </div>
+        </div>
+
+        <h1 class="credit">@all rights reserved!</h1>
+    </section>
+
+
+
+
+
+
+    <script src="JS/Script.js"></script> 
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+
+
+</body>
+
+</html>
